@@ -13,7 +13,6 @@ After I read some information about I2C(Inter-Integrated Circuit), I think it tr
 
 
 
-
 <br>
 References:<br>
 https://www.digikey.com/en/products/detail/nxp-usa-inc/PCF8574T-3-518/735791<br>
