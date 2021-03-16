@@ -11,7 +11,9 @@ The library for the project also can be compatible with other size screens, we o
 
 After I read some information about I2C(Inter-Integrated Circuit), I think it transmit and control using only two two-way Open Drain wires. One is SDA which is Serial Data Line and SCL which Serial Clock Line. Only these two line, the I2C can control starting and ending for transmission. After reading the basic information, and the data sheet for the PCF8574 chip, we can know how the I2C works. When the I2C bus is not busy, both SDA and SCL will be at HIGH state. When the SDA from HIGH state to LOW state while the colck line is HIGH, it defined as the start condition, and when the SDA from LOW state to HIGH state while the colck line is HIGH, it defined as the stop condition. When it is start state, one data bit is transferred during each clock pulse, so the SDA line must keep stable when the SCL clock line is HIGH state because the change of the data line is shown the control signal.<br><br>
 
+I posted two pictures, one is circuit for LCD which we have done in Lab, an the other one is my project circuit. We can see clearly that the circuit without I2C board need many wires to connect the LCD screen. But the LCD with I2C, only have 4 line, ground, VCC, SDA, SCL, which is clear and easily to connect.<br><br>
 
+On UNO R3 board has SDA and SCL ports beside the digit port, and the SDA is connected A4 port, the SCL is connected A5 port, so SDA is A4,and SCL is A5, they are the same.<br><br>
 
 <br>
 References:<br>
