@@ -15,6 +15,8 @@ I posted two pictures, one is circuit for LCD which we have done in Lab, an the 
 
 On UNO R3 board has SDA and SCL ports beside the digit port, and the SDA is connected A4 port, the SCL is connected A5 port, so SDA is A4,and SCL is A5, they are the same.<br><br>
 
+My demo video: https://youtu.be/a2WgS72e5pw<br>
+
 <br>
 References:<br>
 https://www.digikey.com/en/products/detail/nxp-usa-inc/PCF8574T-3-518/735791<br>
