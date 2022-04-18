@@ -1,4 +1,4 @@
-# ECE378_presentationI
+# ECE387_presentationI
 
 My project files:<br>
 lib folder (library files in the lib folder)<br>
